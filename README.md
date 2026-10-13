@@ -30,6 +30,6 @@ python hello.py --list        # print the tool list as JSON instead of serving
 - `call()` may return a string (text), a dict or list (shown as JSON text), or a list of content parts. `image(path_or_bytes)` and `audio(path_or_bytes)` build image and audio parts. An exception inside `call()` comes back to the client as a tool error (`isError`), with the traceback on stderr.
 - Messages are one JSON object per line on standard input and output. Print only to stderr from a tool: stdout belongs to the protocol.
 
-Status: first version. Handshake, `tools/list`, `tools/call` and the error cases were tried by hand against `examples/hello.py` over a pipe; it has not yet been tried with a real client. A Sublime Text helper package (scaffolding, a test panel) is planned and not written.
+Status: first version. The handshake, `tools/list`, `tools/call` and the error cases were tried by hand over a pipe against `examples/hello.py`, and Claude Code 2.1.296 (headless, `--mcp-config`) connected to it and called `greet` successfully (answer `HELLO, DONALD!`). A Sublime Text helper package (scaffolding, a test panel) is planned and not written.
 
 Inspired by [tiny_mcp](https://github.com/maxim/tiny_mcp) (Ruby) by Max Chernyak.
