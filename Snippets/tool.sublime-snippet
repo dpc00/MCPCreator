@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+class ${1:MyTool}(Tool):
+	"""${2:What this tool does.}"""
+
+	${3:value} = arg(${4:str}, "${5:Describe it}")
+
+	def call(self, $3):
+		return ${0:$3}
+
+
+]]></content>
+	<tabTrigger>mcptool</tabTrigger>
+	<scope>source.python</scope>
+	<description>MCP Creator tool class</description>
+</snippet>

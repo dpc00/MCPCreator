@@ -1,0 +1,8 @@
+{
+	// The Python that runs your servers (for Test Server). "python" must be on PATH,
+	// or give the full path, for example "C:\\Program Files\\Python314\\python.exe".
+	"python": "python",
+
+	// Where New Tool Server puts new scripts. Empty means Packages/User/MCP Tools.
+	"tools_folder": ""
+}

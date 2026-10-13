@@ -1,0 +1,6 @@
+[
+	{ "caption": "MCP Creator: New Tool Server", "command": "mcp_creator_new_server" },
+	{ "caption": "MCP Creator: Add Tool", "command": "mcp_creator_add_tool" },
+	{ "caption": "MCP Creator: Test Server", "command": "mcp_creator_test_server" },
+	{ "caption": "MCP Creator: Copy Add Command", "command": "mcp_creator_copy_add_command" }
+]
